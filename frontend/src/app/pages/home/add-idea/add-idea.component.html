@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>Add new idea!</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <input matInput [(ngModel)]="idea">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button [mat-dialog-close]="idea" cdkFocusInitial>Share</button>
+</div>
