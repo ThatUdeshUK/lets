@@ -1,0 +1,2 @@
+# lets
+Idea sharing platform
